@@ -1,14 +1,14 @@
-let a = 10;
-let b = -40;
-let c = 25;
-let s = 0;
-if (a>=0){
-  (s = s + a)
+const onlyLegitNumberSum = (a, b, c) => {
+let result = 0;
+
+if (a >= 0)
+  result += a
+
+if (b >= 0)
+  result += b
+
+if (c >= 0)
+  result += c
+
+return result;
 }
-if (b>=0){
-  (s = s + b)
-}
-if (c>=0){
-  (s = s + c)
-}
-alert(s)
