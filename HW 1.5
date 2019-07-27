@@ -1,0 +1,28 @@
+let BestMark = "A";
+let BetterMark = "B";
+let GoodMark = "C";
+let NormalMark = "D";
+let BadMark = "E";
+let TheWorst = "F";
+
+let x = prompt("Excuse me, какой у вас рейтинг!?  (0-100)");
+if (x >=0 && x <=19){
+ alert(TheWorst);
+};
+if (x >=20 && x <= 39){
+  alert(BadMark);
+};
+if (x >=40 && x <=59){
+  alert(NormalMark);
+};
+if (x >=60 && x <=74){
+  alert(GoodMark);
+};
+if (x >=75 && x <=89){
+  alert(BetterMark);
+};
+if (x >=90 && x<=100){
+  alert(BestMark);
+}else{
+  alert("Get the fuck off, mate");
+};

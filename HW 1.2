@@ -1,0 +1,21 @@
+const getQuarterByCoordinate = (x, y) => {
+    let quarter;
+
+    if (x > 0 && y > 0) {
+        quarter = 1;
+    }
+
+    if (x > 0 && y < 0) {
+        quarter = 2;
+    }
+
+    if (x < 0 && y < 0) {
+        quarter = 3;
+    }
+
+    if (x < 0 && y > 0) {
+        quarter = 4;
+    }
+
+
+return quarter;
